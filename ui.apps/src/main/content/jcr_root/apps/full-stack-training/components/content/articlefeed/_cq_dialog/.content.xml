@@ -14,9 +14,10 @@
                     <feedPath
                         jcr:primaryType="nt:unstructured"
                         sling:resourceType="granite/ui/components/coral/foundation/form/pathfield"
-                        fieldLabel="FeedPath"
+                        fieldLabel="Article Feed Root"
                         filter="hierarchyNotFile"
                         multiple="{Boolean}false"
+                        required="{Boolean}true"
                         name="./feedPath"
                         rootPath="/content/full-stack-training"/>
                 </items>

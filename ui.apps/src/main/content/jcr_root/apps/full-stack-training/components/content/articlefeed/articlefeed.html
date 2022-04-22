@@ -1,4 +1,7 @@
 
+<p>Article Feed Component</p>
+<p>Selected Path: ${properties.feedPath}</p>
+
 <!--/* Article Template */-->
 
 <script type="text/template" id="articleView">
@@ -17,7 +20,7 @@
     <% });  %>
 </script>
 
-<div data-sly-test="${wcmmode.edit}" style="background:#5cab96; color:#fff;">Edit Mode: Edit Article Feed</div>
+<!-- <div data-sly-test="${wcmmode.edit}" style="background:#5cab96; color:#fff;">Edit Mode: Edit Article Feed</div> -->
 
 <div class="article-feed" data-article-feed-json="${properties.feedPath}/_jcr_content.articles.json">
         <div class="row no-gutters row-eq-height js-insert-articles">
